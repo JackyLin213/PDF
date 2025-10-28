@@ -6,7 +6,7 @@ import os
 class PdfToolkitApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("PDF 工具箱 (刪除, 合併, 插入)")
+        self.root.title("PDF Editor (Delete, Merge, Inesert)")
         self.root.geometry("600x500")  # 再次加大視窗
 
         # --- 建立分頁控制器 ---
